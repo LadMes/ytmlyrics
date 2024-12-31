@@ -1,0 +1,14 @@
+{
+    "name": "YouTube Music Lyrics Finder",
+    "description": "The extension finds lyrics in the most popular lyrics sites and then add them to the Lyrics tab",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": [
+                "https://music.youtube.com/*"
+            ]
+        }
+    ]
+}
